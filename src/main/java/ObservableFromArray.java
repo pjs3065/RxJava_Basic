@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 
 public class ObservableFromArray {
     /**
-     * fromArray()함수를 이용해서 배열에 들어 있는 데이터를 처리하기
+     *  fromArray()함수를 이용해서 배열에 들어 있는 데이터를 처리하기
      */
     private void integerArray() {
         Integer[] arr = {100, 200, 300};
