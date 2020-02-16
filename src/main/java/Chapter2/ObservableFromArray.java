@@ -1,3 +1,5 @@
+package Chapter2;
+
 import io.reactivex.Observable;
 
 import java.util.stream.IntStream;
