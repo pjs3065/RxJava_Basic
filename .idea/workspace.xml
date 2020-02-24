@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d92497b9-96c1-4702-b306-3a6c7b29e783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Chapter2/BehaviorSubjectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Chapter2/PublishSubjectExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Chapter2/AsyncSubjectExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Chapter2/AsyncSubjectExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FirstExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ObservableCreateExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ObservableCreateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ObservableFromArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ObservableFromIterable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ObservableNotification.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BehaviorSubjectExample">
+  <component name="RunManager" selected="Application.PublishSubjectExample">
     <configuration name="AsyncSubjectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter2.AsyncSubjectExample" />
       <module name="rxprograming.main" />
@@ -128,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableFromFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter2.ObservableFromFuture" />
+    <configuration name="ObservableFromPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.ObservableFromPublisher" />
       <module name="rxprograming.main" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableFromPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter2.ObservableFromPublisher" />
+    <configuration name="PublishSubjectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.PublishSubjectExample" />
       <module name="rxprograming.main" />
       <extension name="coverage">
         <pattern>
@@ -169,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PublishSubjectExample" />
         <item itemvalue="Application.BehaviorSubjectExample" />
         <item itemvalue="Application.AsyncSubjectExample" />
         <item itemvalue="Application.SingleExample" />
         <item itemvalue="Application.ObservableFromPublisher" />
-        <item itemvalue="Application.ObservableFromFuture" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582541060508</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="BehaviorSubject 클래스 예제">
+      <created>1582557079112</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582557079112</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -322,7 +321,8 @@
     <MESSAGE value="fromPublisher()함수 코드" />
     <MESSAGE value="Single 클래스 코드" />
     <MESSAGE value="AsyncSubject 클래스 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="AsyncSubject 클래스 예제" />
+    <MESSAGE value="BehaviorSubject 클래스 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="BehaviorSubject 클래스 예제" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rxprograming$SingleExample.ic" NAME="SingleExample Coverage Results" MODIFIED="1581865354081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
