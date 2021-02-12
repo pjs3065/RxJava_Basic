@@ -1,6 +1,5 @@
-package Chapter2;
+package chapter2;
 
-import io.reactivex.subjects.PublishSubject;
 import io.reactivex.subjects.ReplaySubject;
 
 public class ReplaySubjectExample {

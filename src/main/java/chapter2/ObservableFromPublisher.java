@@ -1,4 +1,4 @@
-package Chapter2;
+package chapter2;
 
 import io.reactivex.Observable;
 import org.reactivestreams.Publisher;

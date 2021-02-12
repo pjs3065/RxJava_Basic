@@ -1,12 +1,11 @@
-package Chapter2;
+package chapter2;
 
 import io.reactivex.subjects.BehaviorSubject;
-import io.reactivex.subjects.PublishSubject;
 
-public class PublishSubjectExample {
+public class BehaviorSubjectExample {
 
     public void marbleDiagram(){
-        PublishSubject<String> subject = PublishSubject.create();
+        BehaviorSubject<String> subject = BehaviorSubject.createDefault("pink");
         subject.subscribe(data -> System.out.println("Subscriber #1 => " + data ));
         subject.onNext("red");
         subject.onNext("green");
@@ -16,7 +15,7 @@ public class PublishSubjectExample {
     }
 
     public static void main(String[] args) {
-        PublishSubjectExample obj = new PublishSubjectExample();
+        BehaviorSubjectExample obj = new BehaviorSubjectExample();
         obj.marbleDiagram();
     }
 }
